@@ -2,8 +2,8 @@
 name: Bug report
 about: Create a report to help us improve
 title: '[BUG]'
-labels: 'Type: bug'
-assignees: ''
+labels: 'bug'
+assignees: 'Freemandns'
 
 ---
 
