@@ -3,6 +3,8 @@ PowerNBT
 
 Command-based in-game NBT editor for Bukkit
 
+[![CodeQL](https://github.com/Freemandns/PowerNBT/actions/workflows/codeql.yml/badge.svg?branch=master)](https://github.com/Freemandns/PowerNBT/actions/workflows/codeql.yml)
+
 ***********************************************
 
 build:
