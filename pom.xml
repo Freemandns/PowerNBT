@@ -16,7 +16,7 @@
         <api-version>1.17</api-version>
         <bukkit-version>1.15.2-R0.1-SNAPSHOT</bukkit-version>
         <spigot-version>1.17.1-R0.1-SNAPSHOT</spigot-version>
-        <groovy-version>3.0.9</groovy-version>
+        <groovy-version>3.0.15</groovy-version>
         <plugin-version>DEV-SNAPSHOT</plugin-version>
 
         <github.global.server>github</github.global.server>
