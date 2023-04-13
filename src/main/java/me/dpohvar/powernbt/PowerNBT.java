@@ -31,7 +31,6 @@ public class PowerNBT extends JavaPlugin {
     private final String prefix = ChatColor.GOLD.toString() + ChatColor.BOLD + "[" + ChatColor.YELLOW + "PowerNBT" + ChatColor.GOLD + ChatColor.BOLD + "] " + ChatColor.RESET;
     private final String errorPrefix = ChatColor.DARK_RED.toString() + ChatColor.BOLD + "[" + ChatColor.RED + "PowerNBT" + ChatColor.DARK_RED + ChatColor.BOLD + "] " + ChatColor.RESET;
     private TypeCompleter typeCompleter;
-    private InteractiveViewer viewer;
 
     public PowerNBT() {
         super();
@@ -135,8 +134,6 @@ public class PowerNBT extends JavaPlugin {
     @Override
     public void onEnable() {
         FileConfiguration config = getConfig();
-        ViewerStyle style = new ViewerStyle(config.getConfigurationSection("editor.colors"), config.getConfigurationSection("editor.icons"));
-        viewer = new InteractiveViewer(style, config.getInt("limit.vertical", 60), config.getInt("limit.horizontal", 10));
 
         String classMap = this.getConfig().getString("classmap");
         if (classMap != null && !classMap.isEmpty()) {
